@@ -17,5 +17,23 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'halo') {
+    	message.reply('halo-halo bandung');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'pak') {
+    	message.reply('meletus balon hijau PAK');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'mbak') {
+    	message.reply('command: hei,mas,halo,pak');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
