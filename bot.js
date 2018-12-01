@@ -30,7 +30,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'mbak') {
+    if (message.content === 'help') {
     	message.reply('command: hei,mas,halo,pak');
   	}
 });
